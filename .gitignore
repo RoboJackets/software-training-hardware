@@ -1,22 +1,16 @@
 # Ignore list for Eagle, a PCB layout tool
+*.lck
 
 # Backup files
 *.s#?
 *.b#?
 *.l#?
-*.b$?
-*.s$?
-*.l$?
 
 # Eagle project file
 # It contains a serial number and references to the file structure
 # on your computer.
 # comment the following line if you want to have your project file included.
 eagle.epf
-
-# Autorouter files
-*.pro
-*.job
 
 # CAM files
 *.$$$
@@ -34,19 +28,41 @@ eagle.epf
 *.drl
 *.gpi
 *.pls
-*.ger
-*.gpi
-*.xln
 
 *.drd
 *.drd.*
-
-*.s#*
-*.b#*
 
 *.info
 
 *.eps
 
-# file locks introduced since 7.x
-*.lck
+Transcode?Report.txt
+
+#exclude datasheets
+datasheets/
+
+#exclude gerbers
+*.ger
+*.nc
+*.do
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+
+# MATLAB autosave file
+*.asv
+
+# OS X
+.DS_Store
+
+# log files
+*.log
+
+# autorouter log files
+*.pro
