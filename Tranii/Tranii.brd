@@ -1054,45 +1054,32 @@ design rules under a new name.</description>
 </signal>
 <signal name="OUT1">
 <contactref element="J4" pad="3"/>
+<contactref element="U$6" pad="A2"/>
+<wire x1="-128.905" y1="-236.22" x2="-35.56" y2="-118.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ECHO">
 <contactref element="J6" pad="3"/>
+<contactref element="U$6" pad="A9"/>
+<wire x1="-109.855" y1="-246.38" x2="-35.56" y2="-156.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC5">
 <contactref element="J6" pad="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="J1" pad="3"/>
+<contactref element="U$6" pad="22"/>
+<wire x1="-35.56" y1="-60.96" x2="-109.855" y2="-256.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="J1" pad="2"/>
-</signal>
-<signal name="INT">
-<contactref element="J1" pad="1"/>
+<contactref element="U$6" pad="23"/>
+<wire x1="-38.1" y1="-60.96" x2="-109.855" y2="-259.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="U$6" pad="RST"/>
 </signal>
 <signal name="N$30">
 <contactref element="U$6" pad="3V"/>
-</signal>
-<signal name="N$33">
-<contactref element="U$6" pad="A0"/>
-</signal>
-<signal name="N$34">
-<contactref element="U$6" pad="A1"/>
-</signal>
-<signal name="N$35">
-<contactref element="U$6" pad="A2"/>
-</signal>
-<signal name="N$36">
-<contactref element="U$6" pad="A3"/>
-</signal>
-<signal name="N$37">
-<contactref element="U$6" pad="A4"/>
-</signal>
-<signal name="N$38">
-<contactref element="U$6" pad="A5"/>
 </signal>
 <signal name="N$39">
 <contactref element="U$6" pad="SCK"/>
@@ -1118,35 +1105,10 @@ design rules under a new name.</description>
 <signal name="N$47">
 <contactref element="U$6" pad="USB"/>
 </signal>
-<signal name="N$48">
-<contactref element="U$6" pad="A12"/>
-</signal>
-<signal name="N$49">
-<contactref element="U$6" pad="A11"/>
-</signal>
-<signal name="N$50">
-<contactref element="U$6" pad="A10"/>
-</signal>
-<signal name="N$51">
-<contactref element="U$6" pad="A9"/>
-</signal>
-<signal name="N$52">
-<contactref element="U$6" pad="A8"/>
-</signal>
-<signal name="N$53">
-<contactref element="U$6" pad="A7"/>
-</signal>
-<signal name="N$54">
-<contactref element="U$6" pad="A6"/>
-</signal>
-<signal name="N$55">
-<contactref element="U$6" pad="22"/>
-</signal>
-<signal name="N$56">
-<contactref element="U$6" pad="23"/>
-</signal>
-<signal name="N$59">
+<signal name="TICKLEFT">
 <contactref element="J2" pad="3"/>
+<contactref element="U$6" pad="A4"/>
+<wire x1="-128.905" y1="-241.3" x2="-35.56" y2="-80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEFT0">
 <contactref element="J7" pad="1"/>
@@ -1158,8 +1120,10 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="AOUT1"/>
 <wire x1="-61.315" y1="-254.26" x2="-38.1" y2="-175.26" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$64">
+<signal name="TICKRIGHT">
 <contactref element="J3" pad="3"/>
+<contactref element="U$6" pad="A5"/>
+<wire x1="-128.905" y1="-243.84" x2="-35.56" y2="-99.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RIGHT0">
 <contactref element="J8" pad="1"/>
@@ -1181,27 +1145,41 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="AOUT2"/>
 <wire x1="-54.935" y1="-221.24" x2="-38.1" y2="-213.36" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$77">
+<signal name="RIGHT_B">
 <contactref element="U$1" pad="BIN2"/>
+<contactref element="U$6" pad="A8"/>
+<wire x1="-58.065" y1="-248.66" x2="-109.855" y2="-248.92" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$78">
+<signal name="RIGHT_A">
 <contactref element="U$1" pad="BIN1"/>
+<contactref element="U$6" pad="A10"/>
+<wire x1="-57.415" y1="-248.66" x2="-109.855" y2="-243.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$79">
+<signal name="LEFT_B">
 <contactref element="U$1" pad="AIN2"/>
+<contactref element="U$6" pad="A12"/>
+<wire x1="-61.315" y1="-248.66" x2="-109.855" y2="-238.76" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$80">
+<signal name="LEFT_A">
 <contactref element="U$1" pad="AIN1"/>
+<contactref element="U$6" pad="A1"/>
+<wire x1="-61.965" y1="-248.66" x2="-128.905" y2="-233.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT2">
 <contactref element="J5" pad="3"/>
+<contactref element="U$6" pad="A3"/>
+<wire x1="-128.905" y1="-238.76" x2="-35.56" y2="-137.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TRIG">
 <contactref element="J6" pad="2"/>
+<contactref element="U$6" pad="A0"/>
+<wire x1="-128.905" y1="-231.14" x2="-38.1" y2="-156.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5VCC">
 <contactref element="U$8" pad="VOUT"/>
 <contactref element="C6" pad="1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="-135.57" y1="-275.59" x2="-142.24" y2="-281.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-138.43" y1="-270.825" x2="-135.57" y2="-275.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
@@ -1215,13 +1193,19 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R5" pad="2"/>
 <contactref element="U$8" pad="FB"/>
+<contactref element="R6" pad="1"/>
+<wire x1="-139.7" y1="-281.94" x2="-142.24" y2="-288.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-137.48" y1="-270.825" x2="-139.7" y2="-281.94" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N3">
+<signal name="LIFT_A">
 <contactref element="U$2" pad="AIN1"/>
+<contactref element="U$6" pad="A7"/>
+<wire x1="-56.885" y1="-215.64" x2="-109.855" y2="-251.46" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N75">
+<signal name="LIFT_B">
 <contactref element="U$2" pad="AIN2"/>
+<contactref element="U$6" pad="A6"/>
+<wire x1="-56.235" y1="-215.64" x2="-109.855" y2="-254" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
