@@ -1076,9 +1076,12 @@ Parts Updated:
 <wire x1="-5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 </symbol>
 <symbol name="VLS3012HBX">
-<pin name="P$1" x="2.54" y="0" length="middle" rot="R180"/>
-<pin name="P$2" x="-2.54" y="0" length="middle"/>
-<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="94"/>
+<pin name="P$1" x="2.54" y="0" length="middle" rot="R90"/>
+<pin name="P$2" x="-2.54" y="0" length="middle" rot="R90"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6359,15 +6362,15 @@ part number 2062-2P from STA</description>
 </class>
 </classes>
 <parts>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/1"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
-<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
-<part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/1" value="apd"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="left motor encoder"/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="right motor encoder"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="line sensor 2"/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="line sensor 1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="ultrasonic"/>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="left motor output"/>
+<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="right motor output"/>
+<part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="lift motor output"/>
 <part name="U$2" library="Tranii" deviceset="DRV8833" device=""/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
@@ -6391,23 +6394,15 @@ part number 2062-2P from STA</description>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$11" library="Tranii" deviceset="VLS3012HBX" device=""/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 <part name="R5" library="microbuilder" deviceset="RESISTOR" device="_1206" value="0.2Ω"/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="_1206" value="0.2Ω"/>
+<part name="U$11" library="Tranii" deviceset="VLS3012HBX" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="58.42" y="114.3" size="1.778" layer="91">left motor</text>
-<text x="101.6" y="114.3" size="1.778" layer="91">right motor</text>
-<text x="147.32" y="114.3" size="1.778" layer="91">lift motor</text>
-<text x="93.98" y="139.7" size="1.778" layer="91">apd</text>
-<text x="83.82" y="160.02" size="1.778" layer="91">line sensor 1</text>
-<text x="83.82" y="177.8" size="1.778" layer="91">line sensor 2</text>
-<text x="86.36" y="193.04" size="1.778" layer="91">ultrasonic</text>
-<text x="109.22" y="256.54" size="1.778" layer="91">Inductor</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="104.14" y="137.16"/>
@@ -6442,11 +6437,11 @@ part number 2062-2P from STA</description>
 <instance part="U$9" gate="G$1" x="134.62" y="238.76"/>
 <instance part="P+3" gate="VCC" x="96.52" y="251.46"/>
 <instance part="U$10" gate="G$1" x="106.68" y="236.22"/>
-<instance part="U$11" gate="G$1" x="109.22" y="254"/>
 <instance part="U$12" gate="G$1" x="149.86" y="241.3"/>
 <instance part="U$13" gate="G$1" x="142.24" y="231.14"/>
 <instance part="R5" gate="G$1" x="142.24" y="251.46" rot="R270"/>
 <instance part="R6" gate="G$1" x="142.24" y="241.3" rot="R270"/>
+<instance part="U$11" gate="G$1" x="106.68" y="254"/>
 </instances>
 <busses>
 </busses>
@@ -6545,6 +6540,11 @@ part number 2062-2P from STA</description>
 <pinref part="U$13" gate="G$1" pin="GND"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="233.68" x2="142.24" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="GND"/>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<wire x1="134.62" y1="243.84" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6668,10 +6668,12 @@ part number 2062-2P from STA</description>
 <junction x="114.3" y="248.92"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="106.68" y1="248.92" x2="96.52" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="248.92" x2="104.14" y2="248.92" width="0.1524" layer="91"/>
 <junction x="106.68" y="248.92"/>
-<wire x1="106.68" y1="254" x2="106.68" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="P$2"/>
+<wire x1="104.14" y1="248.92" x2="96.52" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="254" x2="104.14" y2="248.92" width="0.1524" layer="91"/>
+<junction x="104.14" y="248.92"/>
 </segment>
 </net>
 <net name="OUT1" class="0">
@@ -6704,6 +6706,17 @@ part number 2062-2P from STA</description>
 <wire x1="109.22" y1="190.5" x2="116.84" y2="190.5" width="0.1524" layer="91"/>
 <label x="116.84" y="190.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="VOUT"/>
+<wire x1="134.62" y1="256.54" x2="142.24" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="256.54" x2="149.86" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="256.54" x2="160.02" y2="256.54" width="0.1524" layer="91"/>
+<junction x="149.86" y="256.54"/>
+<label x="160.02" y="256.54" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<junction x="142.24" y="256.54"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -6727,76 +6740,6 @@ part number 2062-2P from STA</description>
 <pinref part="U$6" gate="G$1" pin="23"/>
 <wire x1="233.68" y1="147.32" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
 <label x="241.3" y="147.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="RST"/>
-<wire x1="182.88" y1="223.52" x2="175.26" y2="223.52" width="0.1524" layer="91"/>
-<label x="172.72" y="223.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="3V"/>
-<wire x1="182.88" y1="218.44" x2="175.26" y2="218.44" width="0.1524" layer="91"/>
-<label x="172.72" y="218.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="SCK"/>
-<wire x1="182.88" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
-<label x="172.72" y="172.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="MO"/>
-<wire x1="182.88" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
-<label x="172.72" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="MI"/>
-<wire x1="182.88" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
-<label x="172.72" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="RX"/>
-<wire x1="182.88" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
-<label x="172.72" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="TX"/>
-<wire x1="182.88" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
-<label x="172.72" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="21"/>
-<wire x1="182.88" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="172.72" y="147.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="EN"/>
-<wire x1="233.68" y1="198.12" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
-<label x="241.3" y="198.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="USB"/>
-<wire x1="233.68" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
-<label x="241.3" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TICKLEFT" class="0">
@@ -6967,32 +6910,6 @@ part number 2062-2P from STA</description>
 <label x="172.72" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="5VCC" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="VOUT"/>
-<wire x1="134.62" y1="256.54" x2="142.24" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="256.54" x2="149.86" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="256.54" x2="160.02" y2="256.54" width="0.1524" layer="91"/>
-<junction x="149.86" y="256.54"/>
-<label x="160.02" y="256.54" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<junction x="142.24" y="256.54"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="134.62" y1="243.84" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
-<pinref part="U$8" gate="G$1" pin="SW"/>
-<wire x1="111.76" y1="254" x2="116.84" y2="254" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -7026,6 +6943,13 @@ part number 2062-2P from STA</description>
 <pinref part="U$6" gate="G$1" pin="A6"/>
 <wire x1="233.68" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
 <label x="241.3" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="U$8" gate="G$1" pin="SW"/>
+<wire x1="109.22" y1="254" x2="116.84" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
