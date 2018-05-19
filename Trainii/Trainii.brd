@@ -4752,7 +4752,7 @@ design rules under a new name.</description>
 </element>
 <element name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="left motor output" x="46.99" y="50.8" rot="R90"/>
 <element name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="right motor output" x="46.99" y="58.42" rot="R90"/>
-<element name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="lift motor output" x="46.99" y="37.465" rot="R90"/>
+<element name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="lift motor output" x="46.99" y="38.1" rot="R90"/>
 <element name="MC2" library="Trainii" package="DRV8833" value="DRV8833" x="39.37" y="39.37" rot="R90"/>
 <element name="C3" library="microbuilder" package="0805-NO" value="0.1uF" x="33.02" y="40.64" rot="R90"/>
 <element name="C4" library="microbuilder" package="0805-NO" value="10µF" x="33.02" y="36.83" rot="R270"/>
@@ -5016,8 +5016,8 @@ design rules under a new name.</description>
 <signal name="LIFT_0">
 <contactref element="J9" pad="1"/>
 <contactref element="MC2" pad="AOUT1"/>
-<wire x1="42.17" y1="37.745" x2="46.71" y2="37.745" width="0.3048" layer="1"/>
-<wire x1="46.71" y1="37.745" x2="46.99" y2="37.465" width="0.3048" layer="1"/>
+<wire x1="42.17" y1="37.745" x2="46.635" y2="37.745" width="0.3048" layer="1"/>
+<wire x1="46.635" y1="37.745" x2="46.99" y2="38.1" width="0.3048" layer="1"/>
 </signal>
 <signal name="RIGHT_B">
 <contactref element="MC1" pad="BIN2"/>
@@ -5177,8 +5177,8 @@ design rules under a new name.</description>
 <signal name="LIFT_1">
 <contactref element="MC2" pad="AOUT2"/>
 <contactref element="J9" pad="2"/>
-<wire x1="42.17" y1="39.045" x2="46.03" y2="39.045" width="0.3048" layer="1"/>
-<wire x1="46.03" y1="39.045" x2="46.99" y2="40.005" width="0.3048" layer="1"/>
+<wire x1="42.17" y1="39.045" x2="45.395" y2="39.045" width="0.3048" layer="1"/>
+<wire x1="45.395" y1="39.045" x2="46.99" y2="40.64" width="0.3048" layer="1"/>
 </signal>
 <signal name="RIGHT_0">
 <contactref element="MC1" pad="BOUT1"/>
