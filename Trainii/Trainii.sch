@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5854,34 +5854,34 @@ part number 2062-2P from STA</description>
 <text x="0.0254" y="2.794" size="1.27" layer="25" ratio="6" rot="SR0" align="center">&gt;Name</text>
 </package>
 <package name="ESP32">
-<pad name="GND" x="-9.525" y="11.43" drill="1.02"/>
-<pad name="NC" x="-9.525" y="13.97" drill="1.02"/>
-<pad name="3V" x="-9.525" y="16.51" drill="1.02"/>
-<pad name="RST" x="-9.525" y="19.05" drill="1.02"/>
-<pad name="A3" x="-9.525" y="1.27" drill="1.02"/>
-<pad name="A2" x="-9.525" y="3.81" drill="1.02"/>
-<pad name="A1" x="-9.525" y="6.35" drill="1.02"/>
-<pad name="A0" x="-9.525" y="8.89" drill="1.02"/>
-<pad name="MO" x="-9.525" y="-8.89" drill="1.02"/>
-<pad name="SCK" x="-9.525" y="-6.35" drill="1.02"/>
-<pad name="A5" x="-9.525" y="-3.81" drill="1.02"/>
-<pad name="A4" x="-9.525" y="-1.27" drill="1.02"/>
-<pad name="21" x="-9.525" y="-19.05" drill="1.02"/>
-<pad name="TX" x="-9.525" y="-16.51" drill="1.02"/>
-<pad name="RX" x="-9.525" y="-13.97" drill="1.02"/>
-<pad name="MI" x="-9.525" y="-11.43" drill="1.02"/>
-<pad name="A12" x="9.525" y="1.27" drill="1.02"/>
-<pad name="USB" x="9.525" y="3.81" drill="1.02"/>
-<pad name="EN" x="9.525" y="6.35" drill="1.02"/>
-<pad name="BAT" x="9.525" y="8.89" drill="1.02"/>
-<pad name="A8" x="9.525" y="-8.89" drill="1.02"/>
-<pad name="A9" x="9.525" y="-6.35" drill="1.02"/>
-<pad name="A10" x="9.525" y="-3.81" drill="1.02"/>
-<pad name="A11" x="9.525" y="-1.27" drill="1.02"/>
-<pad name="23" x="9.525" y="-19.05" drill="1.02"/>
-<pad name="22" x="9.525" y="-16.51" drill="1.02"/>
-<pad name="A6" x="9.525" y="-13.97" drill="1.02"/>
-<pad name="A7" x="9.525" y="-11.43" drill="1.02"/>
+<pad name="GND" x="-10.16" y="11.43" drill="1.02"/>
+<pad name="NC" x="-10.16" y="13.97" drill="1.02"/>
+<pad name="3V" x="-10.16" y="16.51" drill="1.02"/>
+<pad name="RST" x="-10.16" y="19.05" drill="1.02"/>
+<pad name="A3" x="-10.16" y="1.27" drill="1.02"/>
+<pad name="A2" x="-10.16" y="3.81" drill="1.02"/>
+<pad name="A1" x="-10.16" y="6.35" drill="1.02"/>
+<pad name="A0" x="-10.16" y="8.89" drill="1.02"/>
+<pad name="MO" x="-10.16" y="-8.89" drill="1.02"/>
+<pad name="SCK" x="-10.16" y="-6.35" drill="1.02"/>
+<pad name="A5" x="-10.16" y="-3.81" drill="1.02"/>
+<pad name="A4" x="-10.16" y="-1.27" drill="1.02"/>
+<pad name="21" x="-10.16" y="-19.05" drill="1.02"/>
+<pad name="TX" x="-10.16" y="-16.51" drill="1.02"/>
+<pad name="RX" x="-10.16" y="-13.97" drill="1.02"/>
+<pad name="MI" x="-10.16" y="-11.43" drill="1.02"/>
+<pad name="A12" x="10.16" y="1.27" drill="1.02"/>
+<pad name="USB" x="10.16" y="3.81" drill="1.02"/>
+<pad name="EN" x="10.16" y="6.35" drill="1.02"/>
+<pad name="BAT" x="10.16" y="8.89" drill="1.02"/>
+<pad name="A8" x="10.16" y="-8.89" drill="1.02"/>
+<pad name="A9" x="10.16" y="-6.35" drill="1.02"/>
+<pad name="A10" x="10.16" y="-3.81" drill="1.02"/>
+<pad name="A11" x="10.16" y="-1.27" drill="1.02"/>
+<pad name="23" x="10.16" y="-19.05" drill="1.02"/>
+<pad name="22" x="10.16" y="-16.51" drill="1.02"/>
+<pad name="A6" x="10.16" y="-13.97" drill="1.02"/>
+<pad name="A7" x="10.16" y="-11.43" drill="1.02"/>
 <wire x1="-11.43" y1="25.4" x2="11.43" y2="25.4" width="0.127" layer="21"/>
 <wire x1="-11.43" y1="-25.4" x2="11.43" y2="-25.4" width="0.127" layer="21"/>
 <wire x1="-11.43" y1="25.4" x2="-11.43" y2="-25.4" width="0.127" layer="21"/>
