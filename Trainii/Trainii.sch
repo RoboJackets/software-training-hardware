@@ -13354,6 +13354,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,20.32,160.02,MC2,BIN2,,,,"/>
+<approved hash="202,1,20.32,162.56,MC2,BIN1,,,,"/>
+<approved hash="206,1,50.8,208.28,MOTOR_FAULT,,,,,"/>
+<approved hash="206,1,50.8,157.48,MOTOR_FAULT,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
