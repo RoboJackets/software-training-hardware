@@ -1,31 +1,42 @@
-"Part;""Value"";""Device"";""Package"";""Description"";""MANUFACTURER_PART_NUMBER"";""PROD_ID"";""VENDOR"";"
-"C1;""0.1uF"";""CAP_CERAMIC0805-NOOUTLINE"";""0805-NO"";""Ceramic Capacitors"";"""";"""";"""";"
-"C2;""10µF"";""CAP_CERAMIC0805-NOOUTLINE"";""0805-NO"";""Ceramic Capacitors"";"""";"""";"""";"
-"C3;""0.1uF"";""CAP_CERAMIC0805-NOOUTLINE"";""0805-NO"";""Ceramic Capacitors"";"""";"""";"""";"
-"C4;""10µF"";""CAP_CERAMIC0805-NOOUTLINE"";""0805-NO"";""Ceramic Capacitors"";"""";"""";"""";"
-"C5;""10uF"";""CAP_CERAMIC0805-NOOUTLINE"";""0805-NO"";""Ceramic Capacitors"";"""";"""";"""";"
-"C6;""10uF"";""CAP_CERAMIC0805-NOOUTLINE"";""0805-NO"";""Ceramic Capacitors"";"""";"""";"""";"
-"F1;""0ZCJ0100FF2E"";""0ZCJ0100FF2E"";""0ZCJ"";"""";""0ZCJ0100FF2E"";"""";""Belfuse"";"
-"J1;""APDS-9960"";""CONN_06SILK_FEMALE_PTH"";""1X06"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";""CONN-08437"";"""";"
-"J2;""Left Motor Encoder"";""CONN_03"";""1X03"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"J3;""Right Motor Encoder"";""CONN_03"";""1X03"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"J4;""Line Sensor 1"";""CONN_03"";""1X03"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"J5;""Line Sensor 2"";""CONN_03"";""1X03"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"J6;""Ultrasonic"";""CONN_04"";""1X04"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";""CONN-09696"";"""";"
-"J7;""Left Motor Output"";""CONN_02"";""1X02"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"J8;""Right Motor Output"";""CONN_02"";""1X02"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"J9;""Lift Motor Output"";""CONN_02"";""1X02"";""Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections"";"""";"""";"""";"
-"MC1;""DRV8833"";""DRV8833"";""DRV8833"";"""";"""";"""";"""";"
-"MC2;""DRV8833"";""DRV8833"";""DRV8833"";"""";"""";"""";"""";"
-"R1;""0.2Ω"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R2;""0.2Ω"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R3;""0.2Ω"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R4;""0.2Ω"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R5;""10kΩ"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R6;""10kΩ"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R7;""47Ω"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"R8;""91Ω"";""RESISTOR_1206"";""_1206"";""Resistors"";"""";"""";"""";"
-"U$6;""ESP32"";""ESP32"";""ESP32"";"""";"""";"""";"""";"
-"U$12;""VLS3012HBX"";""VLS3012HBX"";""VLS3012HBX"";"""";"""";"""";"""";"
-"U1;""TPS61222DCKR"";""TPS61222DCKR"";""DCK6"";"""";""TPS61222DCKR"";"""";""Texas Instruments"";"
-"U2;""BSS138"";""BSS138"";""SOT-23-3L"";"""";""BSS138"";"""";""Fairchild Semiconductor"";"
+"Part";"Value";"Device";"Package";"Description";"MANUFACTURER_PART_NUMBER";"PROD_ID";"SPICEPREFIX";"VENDOR";
+"C1";"0.01uF";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C2";"10uF";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C3";"0.01uF";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C4";"10uF";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C5";"10uF 16V";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C6";"10uF 16V";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C7";"2.2uF";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"C8";"2.2uF";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"C";"";
+"F1";"0ZCJ0100FF2E";"0ZCJ0100FF2E";"1206";"";"";"";"";"";
+"J1";"APDS-9960";"CONN_06SILK_FEMALE_PTH";"1X06";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"CONN-08437";"";"";
+"J2";"Left Mtr Encoder";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"J3";"Right Mtr Encoder";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"J4";"Line Sensor 1";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"J5";"Line Sensor 2";"CONN_03";"1X03";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"J6";"Ultrasonic";"CONN_04";"1X04";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"CONN-09696";"";"";
+"J7";"Left Motor";"CONN_02";"1X02";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"J8";"Right Motor";"CONN_02";"1X02";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"J9";"Lift Motor";"CONN_02";"1X02";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";
+"L1";"4.7uH";"VLS3012HBX";"VLS3012HBX";"";"";"";"";"";
+"M1";"ESP32";"ESP32";"ESP32";"";"";"";"";"";
+"MC1";"DRV8833";"DRV8833";"HTSSOP-16";"";"";"";"";"";
+"MC2";"DRV8833";"DRV8833";"HTSSOP-16";"";"";"";"";"";
+"R1";"10kΩ";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"R";"";
+"R2";"0.2Ω";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"R";"";
+"R3";"0.2Ω";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"R";"";
+"R4";"0.2Ω";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"R";"";
+"R5";"10kΩ";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"R";"";
+"R6";"10kΩ";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"R";"";
+"R7";"47Ω";"R-US_M0805";"M0805";"RESISTOR, American symbol";"";"";"R";"";
+"R8";"91Ω";"R-US_M0805";"M0805";"RESISTOR, American symbol";"";"";"R";"";
+"R9";"47Ω";"R-US_M0805";"M0805";"RESISTOR, American symbol";"";"";"R";"";
+"R10";"91Ω";"R-US_M0805";"M0805";"RESISTOR, American symbol";"";"";"R";"";
+"R11";"47Ω";"R-US_M0805";"M0805";"RESISTOR, American symbol";"";"";"R";"";
+"R12";"91Ω";"R-US_M0805";"M0805";"RESISTOR, American symbol";"";"";"R";"";
+"S1";"100SP3T";"100SP3T";"100SP3T";"";"";"";"";"";
+"T1";"MCH3383SC-70FL";"MCH3383SC-70FL";"SOTFL65P210X90-3";"";"";"";"";"";
+"T2";"MCH3383SC-70FL";"MCH3383SC-70FL";"SOTFL65P210X90-3";"";"";"";"";"";
+"T3";"MCH3383SC-70FL";"MCH3383SC-70FL";"SOTFL65P210X90-3";"";"";"";"";"";
+"U1";"TPS61222DCKR";"TPS61222DCKR";"DCK6";"";"TPS61222DCKR";"";"";"Texas Instruments";
+"U2";"BSS138";"BSS138";"SOT-23-3L";"";"BSS138";"";"";"Fairchild Semiconductor";
+"X1";"JST-PH2";"JST-PH2";"JST-PH";"";"";"";"";"";
