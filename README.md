@@ -4,7 +4,7 @@ Repository to contain all eagle files and any other electrical or mechanical fil
 # Pin Mapping
 
 | Pin | Type  In Actual | Type out actual | Notes |
-|-|-|-|
+|-|-|-|-|
 | A0 | digital | PWM | |
 | A1 | digital | PWM | |
 | A2 | analog  | Na | |
