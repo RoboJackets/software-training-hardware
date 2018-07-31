@@ -179,6 +179,7 @@
 <text x="29.845" y="8.89" size="1.016" layer="21" font="vector" ratio="20" rot="R180">OFF</text>
 <text x="25.4" y="8.89" size="1.016" layer="21" font="vector" ratio="20" rot="R180">CHRG</text>
 <text x="34.925" y="8.89" size="1.016" layer="21" font="vector" ratio="20" rot="R180">RUN</text>
+<rectangle x1="32.385" y1="62.865" x2="36.83" y2="67.945" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -5817,7 +5818,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="13.335" y="24.765" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$2" library="RoboJackets-Aesthetics" package="ROBOJACKETS" value="" x="24.765" y="27.305" rot="R90"/>
-<element name="U$6" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.4X" value="" x="37.465" y="62.865"/>
+<element name="U$6" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.4X" value="" x="40.005" y="62.865"/>
 </elements>
 <signals>
 <signal name="GND">
