@@ -5817,7 +5817,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="13.335" y="24.765" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$2" library="RoboJackets-Aesthetics" package="ROBOJACKETS" value="" x="24.765" y="27.305" rot="R90"/>
-<element name="U$6" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.4X" value="" x="39.37" y="62.865"/>
+<element name="U$6" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.4X" value="" x="37.465" y="62.865"/>
 </elements>
 <signals>
 <signal name="GND">
