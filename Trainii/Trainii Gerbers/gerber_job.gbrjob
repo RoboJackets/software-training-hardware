@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.1*%
+%TF.CreationDate,2018-08-07T15:37:49Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Joseph Spall <jspall3@gatech.edu>*%
+%TJ.B_ID,Trainii*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,50.800000*%
+%TJ.B_Size_Y,71.120000*%
+M02*
