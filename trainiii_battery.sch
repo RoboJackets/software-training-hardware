@@ -209,8 +209,8 @@
 <pin name="3" x="5.08" y="5.08" length="short" rot="R180"/>
 <pin name="2" x="5.08" y="0" length="short" rot="R180"/>
 <pin name="1" x="5.08" y="-5.08" length="short" rot="R180"/>
-<text x="-2.54" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <rectangle x1="1.27" y1="2.54" x2="2.54" y2="5.08" layer="94"/>
 <rectangle x1="1.27" y1="-5.08" x2="2.54" y2="-2.54" layer="94"/>
 </symbol>
@@ -226,8 +226,8 @@
 <wire x1="-4.318" y1="3.302" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-4.318" y1="-1.778" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="4.064" x2="0" y2="-0.889" width="0.254" layer="94" style="dashdot"/>
-<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-5.588" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="5.08" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-5.588" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5314,7 +5314,7 @@ LED</description>
 <part name="J1" library="Trainiii Battery" deviceset="B3B-XH-A(LF)(SN)" device=""/>
 <part name="S1" library="Trainiii Battery" deviceset="S201031MS02Q" device=""/>
 <part name="J2" library="Trainiii Battery" deviceset="B3B-XH-A(LF)(SN)" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GRN"/>
@@ -5322,35 +5322,35 @@ LED</description>
 <sheets>
 <sheet>
 <plain>
-<text x="38.1" y="50.8" size="1.778" layer="97">Battery</text>
-<text x="98.044" y="50.8" size="1.778" layer="97">Robot</text>
+<text x="38.1" y="50.8" size="1.778" layer="97" font="vector">Battery</text>
+<text x="98.044" y="50.8" size="1.778" layer="97" font="vector">Robot</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="40.64" y="63.5" smashed="yes">
-<attribute name="NAME" x="38.1" y="71.628" size="1.778" layer="95"/>
-<attribute name="VALUE" x="38.1" y="53.34" size="1.778" layer="96"/>
+<attribute name="NAME" x="38.1" y="71.628" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="38.1" y="53.34" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="S1" gate="G$1" x="71.12" y="66.04" smashed="yes">
-<attribute name="NAME" x="60.96" y="71.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.96" y="60.452" size="1.778" layer="96"/>
+<attribute name="NAME" x="60.96" y="71.12" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="60.96" y="60.452" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J2" gate="G$1" x="101.6" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="104.14" y="71.628" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="104.14" y="53.34" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="104.14" y="71.628" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="104.14" y="53.34" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="96.52" y="78.74" smashed="yes">
-<attribute name="NAME" x="92.71" y="80.2386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="92.71" y="75.438" size="1.778" layer="96"/>
+<attribute name="NAME" x="92.71" y="80.2386" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="92.71" y="75.438" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND1" gate="1" x="71.12" y="48.26" smashed="yes">
 <attribute name="VALUE" x="68.58" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="116.84" y="73.66" smashed="yes">
-<attribute name="VALUE" x="114.3" y="71.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="114.3" y="71.12" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="D1" gate="G$1" x="106.68" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.998" y="74.803" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="111.252" y="80.645" size="1.778" layer="96" rot="R180" align="top-left"/>
+<attribute name="NAME" x="110.998" y="74.803" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="111.252" y="83.185" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -5361,7 +5361,7 @@ LED</description>
 <pinref part="S1" gate="G$1" pin="1A"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<label x="48.768" y="69.596" size="1.778" layer="95"/>
+<label x="48.768" y="69.596" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="+VCELL_IN" class="0">
@@ -5369,7 +5369,7 @@ LED</description>
 <pinref part="S1" gate="G$1" pin="2A"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
-<label x="47.498" y="64.516" size="1.778" layer="95"/>
+<label x="47.498" y="64.516" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="+VBAT_OUT" class="0">
@@ -5377,7 +5377,7 @@ LED</description>
 <pinref part="S1" gate="G$1" pin="1B"/>
 <wire x1="81.28" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="3"/>
-<label x="82.296" y="69.596" size="1.778" layer="95"/>
+<label x="82.296" y="69.596" size="1.778" layer="95" font="vector"/>
 <wire x1="86.36" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 <junction x="86.36" y="68.58"/>
@@ -5390,7 +5390,7 @@ LED</description>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<label x="47.752" y="58.928" size="1.778" layer="95"/>
+<label x="47.752" y="58.928" size="1.778" layer="95" font="vector"/>
 <wire x1="71.12" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="58.42" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
@@ -5408,7 +5408,7 @@ LED</description>
 <pinref part="S1" gate="G$1" pin="2B"/>
 <wire x1="81.28" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<label x="81.026" y="64.516" size="1.778" layer="95"/>
+<label x="81.026" y="64.516" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LED_IN" class="0">
