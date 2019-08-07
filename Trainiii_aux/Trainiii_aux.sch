@@ -9221,8 +9221,8 @@ LED</description>
 <text x="200.66" y="160.02" size="2.54" layer="97" font="vector">Ultrasonic Processing</text>
 <text x="249.428" y="151.13" size="1.778" layer="97" font="vector">Trig Processing</text>
 <text x="330.708" y="151.13" size="1.778" layer="97" font="vector">Echo Processing</text>
-<text x="61.976" y="98.044" size="1.778" layer="97" font="vector" rot="MR0">E1 on BeagleBone Blue</text>
-<text x="61.976" y="128.524" size="1.778" layer="97" font="vector" rot="MR0">E3 on BeagleBone Blue</text>
+<text x="59.436" y="128.524" size="1.778" layer="97" font="vector" rot="MR0">E1 on BeagleBone Blue</text>
+<text x="59.436" y="98.044" size="1.778" layer="97" font="vector" rot="MR0">E3 on BeagleBone Blue</text>
 <text x="61.976" y="72.644" size="1.778" layer="97" font="vector" rot="MR0">PWR on BeagleBone Blue</text>
 <text x="61.976" y="44.704" size="1.778" layer="97" font="vector" rot="MR0">ADC on BeagleBone Blue</text>
 <wire x1="27.94" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="97" style="longdash"/>
@@ -9270,8 +9270,8 @@ LED</description>
 <attribute name="NAME" x="346.456" y="123.4694" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="350.52" y="122.174" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="239.268" y="135.89" smashed="yes">
-<attribute name="VALUE" x="241.046" y="135.128" size="1.778" layer="96"/>
+<instance part="+3V1" gate="G$1" x="242.824" y="136.398" smashed="yes">
+<attribute name="VALUE" x="244.602" y="135.636" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="1" x="290.068" y="146.05" smashed="yes">
 <attribute name="VALUE" x="292.1" y="145.288" size="1.778" layer="96"/>
@@ -9537,10 +9537,11 @@ LED</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="A" pin="G"/>
-<wire x1="239.268" y1="125.73" x2="246.888" y2="125.73" width="0.1524" layer="91"/>
-<wire x1="239.268" y1="133.35" x2="239.268" y2="125.73" width="0.1524" layer="91"/>
-<junction x="239.268" y="125.73"/>
+<wire x1="239.268" y1="125.73" x2="242.824" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="242.824" y1="125.73" x2="246.888" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="242.824" y1="125.73" x2="242.824" y2="133.858" width="0.1524" layer="91"/>
+<junction x="242.824" y="125.73"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -9595,14 +9596,16 @@ LED</description>
 </net>
 <net name="TRIG_3V3" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="229.108" y1="125.73" x2="226.568" y2="125.73" width="0.1524" layer="91"/>
-<label x="226.568" y="125.73" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
+<wire x1="226.06" y1="125.73" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="111.76" x2="271.78" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="A" pin="S"/>
-<wire x1="267.208" y1="123.19" x2="290.068" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="267.208" y1="123.19" x2="271.78" y2="123.19" width="0.1524" layer="91"/>
 <label x="290.068" y="123.19" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="271.78" y1="123.19" x2="290.068" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="111.76" x2="271.78" y2="123.19" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="229.108" y1="125.73" x2="226.06" y2="125.73" width="0.1524" layer="91"/>
+<junction x="271.78" y="123.19"/>
 </segment>
 <segment>
 <pinref part="J10" gate="G$1" pin="3"/>
